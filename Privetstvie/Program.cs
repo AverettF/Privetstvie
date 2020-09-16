@@ -48,6 +48,7 @@ namespace Privetstvie
 
             }
   
+
             Console.WriteLine("Привет, {0} .Ваш возраст равен {1} лет.Приятно познакомиться.",name,yearperson);
 
         }
