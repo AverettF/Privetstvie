@@ -22,13 +22,13 @@ namespace Privetstvie
             Console.WriteLine("Введите ваше имя:");
             string name = Console.ReadLine();  
 
-            Console.WriteLine("Введите день нашего рождения:");
+            Console.WriteLine("Введите номер дня даты вашего рождения:");
             int day = Convert.ToInt32(Console.ReadLine()); 
 
-            Console.WriteLine("Введите месяц нашего рождения:");
+            Console.WriteLine("Введите номер месяца даты вашего рождения:");
             int month = Convert.ToInt32(Console.ReadLine()); 
 
-            Console.WriteLine("Введите год нашего рождения:");
+            Console.WriteLine("Введите номер года даты вашего рождения:");
             int year =int.Parse(Console.ReadLine());
 
             //Проверка на корректность ввода месяца,года.Присваивание кол-вa дней в этом месяце.
@@ -56,7 +56,7 @@ namespace Privetstvie
             }
             else
             {
-                Console.WriteLine("НЕВЕРНО ВВЕДЕНА ДАТА");
+                Console.WriteLine("НЕВЕРНО ВВЕДЕНА ДАТА!!!!!");
             }
 
             if (yearperson != -1)
